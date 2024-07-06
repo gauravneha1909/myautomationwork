@@ -31,7 +31,7 @@ public class DDTests {
 		
 		Response response= UserEndPoints.createuser(userpayload);
 
-		AssertJUnit.assertEquals(response.statusCode(), 200);
+		Assert.assertEquals(response.statusCode(), 200);
 		
 	}
 	
